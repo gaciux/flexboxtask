@@ -1,0 +1,93 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main_container {
+     display: flex;
+    -webkit-text-stroke: thin;
+    
+    
+    
+}
+
+h2 {
+    background: purple;
+    color: white;
+    margin: 0;
+    padding: 35px;
+    text-align: center;
+    
+}
+
+.first_p {
+    background: turquoise;
+    margin: 5px;
+    padding: 1em;
+    flex: 5%;
+    order: 3;
+    
+    
+    
+}
+
+.second_p {
+    background: orange;
+    align-items: space-around;
+    
+    display: inline-block;
+    text-align: center;
+    padding: 1em;
+    flex: 30%;
+    margin: 10px;
+    order: 2;
+    
+    
+    
+    
+   
+}
+
+.third_p {
+    background: turquoise;
+    margin: 5px;
+    padding: 1em;
+    flex: 5%;
+    order: 1;
+    
+    
+}
+
+
+
+.buttons .special_offer {
+    background: lightgray;
+    border: 1px gray;
+    
+}
+
+.buttons {
+    padding: 2em;
+    padding-bottom: 4em;
+    
+}
+
+body {
+    border: 4px slategrey solid;
+    margin: 0 9em 0 9em;
+}
+
+.special_button {
+    padding: 0em 7em 0em 7em;
+    font-size: larger;
+    
+}
+
+.middle_text {
+    padding-top: 2em;
+    text-align: left;
+}
+
+
+button {
+    font-size: medium;
+}
